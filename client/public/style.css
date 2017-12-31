@@ -1,3 +1,16 @@
+html {
+  position: relative;
+}
+
 #display {
   margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 80vh;
+  overflow: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 13px;
 }
