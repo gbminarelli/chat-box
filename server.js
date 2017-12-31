@@ -4,7 +4,6 @@ const io = require('socket.io')(server);
 
 io.on('connection', (socket) => {
   console.log('Client connected...');
-  socket.emit('message', {message:'HELLO'});
 });
 
 app.get('/', (req, res) => {
